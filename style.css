@@ -63,6 +63,10 @@ form .heading h1 {
     font-weight: 500;
 }
 
+.inputs {
+    width: 100%;
+}
+
 .inputs input {
     width: 100%;
     height: 7vh;
@@ -96,6 +100,7 @@ form .heading h1 {
 .signup {
     width: 100%;
     display: flex;
+    align-items: center;
 }
 
 .signup p {
@@ -110,4 +115,26 @@ form .heading h1 {
 
 .signup a:hover {
     text-decoration: underline;
+}
+
+
+/*? Media Queries */
+@media all and (max-width:600px) {
+
+    form .heading h1 {
+        font-size: 6vw;
+    }
+
+    .inputs input {
+        font-size: 2.5vw;
+        padding: 0 5vw;
+    }
+
+    .signinBtn {
+        font-size: 3vw;
+    }
+
+    .signup p{
+        font-size: 2.5vw;
+    }
 }
